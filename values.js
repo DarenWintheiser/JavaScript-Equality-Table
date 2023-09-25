@@ -1,4 +1,4 @@
-// Strings in backticks (`) are evaluated.
+//#Strings in backticks (`) are evaluated.
 var values = [
     true,
     false,
@@ -47,4 +47,4 @@ if ((""+window.location.search).match(/reordered/)) {
         "`{}`",
         "`parseFloat('nan')`"
     ];
-}
+} 
